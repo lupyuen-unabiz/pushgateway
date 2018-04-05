@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="pushgateway" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="true">
+    <module name="pushgateway" />
+    <working_directory value="$PROJECT_DIR$/cmd" />
+    <go_parameters value="-i" />
+    <kind value="DIRECTORY" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <package value="github.com/prometheus/pushgateway" />
+    <directory value="$PROJECT_DIR$/cmd" />
+    <output_directory value="$PROJECT_DIR$/cmd" />
+    <method />
+  </configuration>
+</component>
