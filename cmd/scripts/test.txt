@@ -1,0 +1,8 @@
+# TYPE my_metric counter
+
+my_metric{label="val1"} 52
+
+# TYPE my_next_metric gauge
+# HELP my_next_metric Just an example.
+
+my_next_metric 2398.283
