@@ -38,7 +38,8 @@ import (
 
 var (
 	showVersion         = flag.Bool("version", false, "Print version information.")
-	listenAddress       = flag.String("web.listen-address", ":9091", "Address to listen on for the web interface, API, and telemetry.")
+	//  TODO: Changed from 9091 to 8080 for AppEngine
+	listenAddress       = flag.String("web.listen-address", ":8080", "Address to listen on for the web interface, API, and telemetry.")
 	metricsPath         = flag.String("web.telemetry-path", "/metrics", "Path under which to expose metrics.")
 	routePrefix         = flag.String("web.route-prefix", "", "Prefix for the internal routes of web endpoints.")
 	persistenceFile     = flag.String("persistence.file", "", "File to persist metrics. If empty, metrics are only kept in memory.")
